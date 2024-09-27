@@ -1,0 +1,22 @@
+{
+  "name": "pdf",
+  "version": "1.0.0",
+  "description": "Creando una app que tenga un login para un generador de pdf automatico",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --env-file .env --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "george23elias"
+  },
+  "author": "Mr. G",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.0"
+  }
+}
